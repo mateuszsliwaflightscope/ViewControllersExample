@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -126,9 +127,23 @@
                     <view key="view" contentMode="scaleToFill" id="VU3-22-bkn">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YLs-gN-sUq">
+                                <rect key="frame" x="16" y="64" width="288" height="504"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="0.92324929971988801" green="0.81076329755495113" blue="0.018603431402754774" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YLs-gN-sUq" firstAttribute="leading" secondItem="VU3-22-bkn" secondAttribute="leadingMargin" id="3us-5v-7LU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YLs-gN-sUq" secondAttribute="trailing" id="M2L-bF-cT8"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="YLs-gN-sUq" secondAttribute="bottom" id="dIK-Lo-HuE"/>
+                            <constraint firstItem="YLs-gN-sUq" firstAttribute="top" secondItem="1mM-22-CZF" secondAttribute="bottom" id="q9U-kt-YJ0"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="idg-NU-Jx0"/>
+                    <connections>
+                        <outlet property="myMapView" destination="YLs-gN-sUq" id="fnV-ow-SAE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Jq-od-ir2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,7 +160,24 @@
                     <view key="view" contentMode="scaleToFill" id="sfa-eh-bHv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xzA-dg-Lhd">
+                                <rect key="frame" x="16" y="0.0" width="288" height="519"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="FYz-0m-zuC" id="VRt-Nw-rHN"/>
+                                    <outlet property="delegate" destination="FYz-0m-zuC" id="Wwv-IB-8G8"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DSX-4S-fMO" firstAttribute="top" secondItem="xzA-dg-Lhd" secondAttribute="bottom" id="10O-5v-sDM"/>
+                            <constraint firstItem="xzA-dg-Lhd" firstAttribute="top" secondItem="sfa-eh-bHv" secondAttribute="topMargin" id="JEr-kq-kvb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xzA-dg-Lhd" secondAttribute="trailing" id="KAE-DD-2wj"/>
+                            <constraint firstItem="xzA-dg-Lhd" firstAttribute="leading" secondItem="sfa-eh-bHv" secondAttribute="leadingMargin" id="LMc-gf-PWf"/>
+                            <constraint firstItem="DSX-4S-fMO" firstAttribute="top" secondItem="xzA-dg-Lhd" secondAttribute="bottom" id="sqE-dK-Nxa"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="xUb-wK-jp0"/>
                 </viewController>
@@ -262,12 +294,41 @@
                     <view key="view" contentMode="scaleToFill" id="bDL-NZ-UMU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yC6-UP-OTS">
+                                <rect key="frame" x="16" y="64" width="288" height="504"/>
+                                <color key="backgroundColor" red="0.80335242880000002" green="0.80084010350000001" blue="0.81154346470000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jD0-mS-ZpW">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumID" id="MFh-i6-ba7" customClass="VCECollectionViewCell">
+                                        <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80335242880000002" green="0.80084010350000001" blue="0.81154346470000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SsG-1G-lk0" firstAttribute="top" secondItem="yC6-UP-OTS" secondAttribute="bottom" id="By5-ze-fFv"/>
+                            <constraint firstItem="yC6-UP-OTS" firstAttribute="top" secondItem="Cdw-RG-NnY" secondAttribute="bottom" id="XED-Je-eb5"/>
+                            <constraint firstItem="yC6-UP-OTS" firstAttribute="leading" secondItem="bDL-NZ-UMU" secondAttribute="leadingMargin" id="fh3-q2-rYx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yC6-UP-OTS" secondAttribute="trailing" id="poD-KN-cdo"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zFi-jf-s7I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="2353"/>
+            <point key="canvasLocation" x="674" y="2371"/>
         </scene>
         <!--Split Controller-->
         <scene sceneID="NpP-Dc-ews">

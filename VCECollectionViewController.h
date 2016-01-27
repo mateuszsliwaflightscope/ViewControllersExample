@@ -1,5 +1,5 @@
 //
-//  VCERedViewController.h
+//  VCECollectionViewController.h
 //  ViewControllersFlow
 //
 //  Created by Developer on 1/26/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VCERedViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface VCECollectionViewController : UICollectionViewController
 
 @end

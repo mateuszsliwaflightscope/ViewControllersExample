@@ -137,10 +137,10 @@
 - (void)manageNavigationBar:(NSInteger)index {
     
     if (index == 0 || index == 9) {
-        [self.navigationController setNavigationBarHidden:NO];
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
     }
     else {
-        [self.navigationController setNavigationBarHidden:YES];
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
     }
 
 }

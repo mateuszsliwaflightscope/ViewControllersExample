@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "AdressAnnotation.h"
 
 @interface VCEYellowViewController : UIViewController
+
+
+@property (strong, nonatomic) IBOutlet MKMapView *myMapView;
+
 
 @end

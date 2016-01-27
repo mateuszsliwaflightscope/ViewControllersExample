@@ -1,5 +1,5 @@
 //
-//  VCECollectionViewControlerViewController.h
+//  VCECollectionViewCell.h
 //  ViewControllersFlow
 //
 //  Created by Developer on 1/26/16.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VCECollectionViewControlerViewController : UIViewController
+@interface VCECollectionViewCell : UICollectionViewCell
+@property (nonatomic, strong) IBOutlet UIImageView *imageView;
 
 @end

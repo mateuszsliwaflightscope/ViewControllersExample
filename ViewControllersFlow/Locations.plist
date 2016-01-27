@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Barcelona</string>
+		<key>Latitude</key>
+		<real>41.3851</real>
+		<key>Longitude</key>
+		<real>2.1734</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Warszawa</string>
+		<key>Latitude</key>
+		<real>52.2297</real>
+		<key>Longitude</key>
+		<real>21.0122</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Berlin</string>
+		<key>Latitude</key>
+		<real>52.5192</real>
+		<key>Longitude</key>
+		<real>13.4061</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Moskwa</string>
+		<key>Latitude</key>
+		<real>55.7496</real>
+		<key>Longitude</key>
+		<real>37.6237</real>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Paryz</string>
+		<key>Latitude</key>
+		<real>48.8566</real>
+		<key>Longitude</key>
+		<real>2.3522</real>
+	</dict>
+</array>
+</plist>

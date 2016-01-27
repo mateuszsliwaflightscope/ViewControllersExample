@@ -19,12 +19,18 @@
 		042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683711C567FC300CDEEE1 /* VCESplitRootViewController.m */; };
 		042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */; };
 		04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D3ADF91C56A782008B0295 /* VCEPageViewController.m */; };
-		807E57AB1C577755002B12B6 /* VCECollectionViewControlerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */; };
 		807E57B71C578CBF002B12B6 /* VCERedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57B61C578CBF002B12B6 /* VCERedViewController.m */; };
 		807E57BA1C578D23002B12B6 /* VCEYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57B91C578D23002B12B6 /* VCEYellowViewController.m */; };
 		807E57BD1C578EAB002B12B6 /* VCETabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */; };
 		807E57C01C579333002B12B6 /* mountain.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57BE1C579333002B12B6 /* mountain.png */; };
 		807E57C11C579333002B12B6 /* treasure_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57BF1C579333002B12B6 /* treasure_map.png */; };
+		807E57C41C579DAE002B12B6 /* bg_cork.png in Resources */ = {isa = PBXBuildFile; fileRef = 807E57C31C579DAE002B12B6 /* bg_cork.png */; };
+		807E57C61C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */; };
+		807E57C91C57A141002B12B6 /* VCECollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57C81C57A141002B12B6 /* VCECollectionViewController.m */; };
+		807E57CC1C57A3A7002B12B6 /* VCECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */; };
+		807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E57CE1C5848CB002B12B6 /* MapKit.framework */; };
+		807E57D21C584CA5002B12B6 /* AdressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E57D11C584CA5002B12B6 /* AdressAnnotation.m */; };
+		807E57D41C585339002B12B6 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807E57D31C585339002B12B6 /* Locations.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,8 +56,6 @@
 		042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCESplitDetailViewController.m; sourceTree = "<group>"; };
 		04D3ADF81C56A782008B0295 /* VCEPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEPageViewController.h; sourceTree = "<group>"; };
 		04D3ADF91C56A782008B0295 /* VCEPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCEPageViewController.m; sourceTree = "<group>"; };
-		807E57A91C577755002B12B6 /* VCECollectionViewControlerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewControlerViewController.h; sourceTree = "<group>"; };
-		807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewControlerViewController.m; sourceTree = "<group>"; };
 		807E57B51C578CBF002B12B6 /* VCERedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCERedViewController.h; sourceTree = "<group>"; };
 		807E57B61C578CBF002B12B6 /* VCERedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCERedViewController.m; sourceTree = "<group>"; };
 		807E57B81C578D23002B12B6 /* VCEYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCEYellowViewController.h; sourceTree = "<group>"; };
@@ -60,6 +64,16 @@
 		807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCETabBarViewController.m; sourceTree = "<group>"; };
 		807E57BE1C579333002B12B6 /* mountain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain.png; sourceTree = "<group>"; };
 		807E57BF1C579333002B12B6 /* treasure_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treasure_map.png; sourceTree = "<group>"; };
+		807E57C31C579DAE002B12B6 /* bg_cork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_cork.png; sourceTree = "<group>"; };
+		807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stare-tekstury-vintage-grunge_19-113524.jpg"; sourceTree = "<group>"; };
+		807E57C71C57A141002B12B6 /* VCECollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCECollectionViewController.h; path = ../VCECollectionViewController.h; sourceTree = "<group>"; };
+		807E57C81C57A141002B12B6 /* VCECollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCECollectionViewController.m; path = ../VCECollectionViewController.m; sourceTree = "<group>"; };
+		807E57CA1C57A3A7002B12B6 /* VCECollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCECollectionViewCell.h; sourceTree = "<group>"; };
+		807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCECollectionViewCell.m; sourceTree = "<group>"; };
+		807E57CE1C5848CB002B12B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		807E57D01C584CA5002B12B6 /* AdressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressAnnotation.h; sourceTree = "<group>"; };
+		807E57D11C584CA5002B12B6 /* AdressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressAnnotation.m; sourceTree = "<group>"; };
+		807E57D31C585339002B12B6 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807E57CF1C5848CB002B12B6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +107,8 @@
 		0426834B1C566F0800CDEEE1 /* ViewControllersFlow */ = {
 			isa = PBXGroup;
 			children = (
+				80B93C241C585FDB00705531 /* Plist */,
+				807E57CD1C584870002B12B6 /* Frameworks */,
 				807E57C21C5796A1002B12B6 /* Images */,
 				042683761C5684A900CDEEE1 /* ViewControllers */,
 				0426834F1C566F0800CDEEE1 /* VCEAppDelegate.h */,
@@ -116,6 +133,8 @@
 		042683761C5684A900CDEEE1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				807E57C71C57A141002B12B6 /* VCECollectionViewController.h */,
+				807E57C81C57A141002B12B6 /* VCECollectionViewController.m */,
 				042683731C5684A300CDEEE1 /* VCESplitDetailViewController.h */,
 				042683741C5684A300CDEEE1 /* VCESplitDetailViewController.m */,
 				0426836A1C567EC100CDEEE1 /* VCESplitViewController.h */,
@@ -130,14 +149,16 @@
 				042683531C566F0800CDEEE1 /* VCEViewController.m */,
 				04D3ADF81C56A782008B0295 /* VCEPageViewController.h */,
 				04D3ADF91C56A782008B0295 /* VCEPageViewController.m */,
-				807E57A91C577755002B12B6 /* VCECollectionViewControlerViewController.h */,
-				807E57AA1C577755002B12B6 /* VCECollectionViewControlerViewController.m */,
 				807E57B51C578CBF002B12B6 /* VCERedViewController.h */,
 				807E57B61C578CBF002B12B6 /* VCERedViewController.m */,
 				807E57B81C578D23002B12B6 /* VCEYellowViewController.h */,
 				807E57B91C578D23002B12B6 /* VCEYellowViewController.m */,
+				807E57D01C584CA5002B12B6 /* AdressAnnotation.h */,
+				807E57D11C584CA5002B12B6 /* AdressAnnotation.m */,
 				807E57BB1C578EAB002B12B6 /* VCETabBarViewController.h */,
 				807E57BC1C578EAB002B12B6 /* VCETabBarViewController.m */,
+				807E57CA1C57A3A7002B12B6 /* VCECollectionViewCell.h */,
+				807E57CB1C57A3A7002B12B6 /* VCECollectionViewCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -145,10 +166,28 @@
 		807E57C21C5796A1002B12B6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				807E57C31C579DAE002B12B6 /* bg_cork.png */,
+				807E57C51C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg */,
 				807E57BE1C579333002B12B6 /* mountain.png */,
 				807E57BF1C579333002B12B6 /* treasure_map.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		807E57CD1C584870002B12B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				807E57CE1C5848CB002B12B6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B93C241C585FDB00705531 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				807E57D31C585339002B12B6 /* Locations.plist */,
+			);
+			name = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0426835C1C566F0800CDEEE1 /* LaunchScreen.storyboard in Resources */,
+				807E57C41C579DAE002B12B6 /* bg_cork.png in Resources */,
 				807E57C11C579333002B12B6 /* treasure_map.png in Resources */,
 				042683591C566F0800CDEEE1 /* Assets.xcassets in Resources */,
 				807E57C01C579333002B12B6 /* mountain.png in Resources */,
+				807E57D41C585339002B12B6 /* Locations.plist in Resources */,
+				807E57C61C579F4E002B12B6 /* stare-tekstury-vintage-grunge_19-113524.jpg in Resources */,
 				042683571C566F0800CDEEE1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,15 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				042683541C566F0800CDEEE1 /* VCEViewController.m in Sources */,
+				807E57D21C584CA5002B12B6 /* AdressAnnotation.m in Sources */,
+				807E57C91C57A141002B12B6 /* VCECollectionViewController.m in Sources */,
 				0426836C1C567EC100CDEEE1 /* VCESplitViewController.m in Sources */,
 				04D3ADFA1C56A782008B0295 /* VCEPageViewController.m in Sources */,
 				042683511C566F0800CDEEE1 /* VCEAppDelegate.m in Sources */,
 				042683691C56736800CDEEE1 /* VCEModalViewController.m in Sources */,
 				042683751C5684A300CDEEE1 /* VCESplitDetailViewController.m in Sources */,
+				807E57CC1C57A3A7002B12B6 /* VCECollectionViewCell.m in Sources */,
 				807E57BD1C578EAB002B12B6 /* VCETabBarViewController.m in Sources */,
 				807E57B71C578CBF002B12B6 /* VCERedViewController.m in Sources */,
 				042683651C5670B700CDEEE1 /* VCEBlueViewController.m in Sources */,
-				807E57AB1C577755002B12B6 /* VCECollectionViewControlerViewController.m in Sources */,
 				807E57BA1C578D23002B12B6 /* VCEYellowViewController.m in Sources */,
 				0426834E1C566F0800CDEEE1 /* main.m in Sources */,
 				042683721C567FC300CDEEE1 /* VCESplitRootViewController.m in Sources */,
